@@ -3,5 +3,5 @@ function bar(target: Object, propertyKey: string | symbol, parameterIndex: numbe
 
 @foo
 export class Foo {
-  constructor(@bar @bar foo: any) {}
+  constructor(@bar foo: any, @bar bar: any) {}
 }
